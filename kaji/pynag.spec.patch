@@ -1,5 +1,5 @@
 diff --git a/pynag.spec b/pynag.spec
-index e5f5d88..e1834af 100644
+index e5f5d88..86bd3ac 100644
 --- a/pynag.spec
 +++ b/pynag.spec
 @@ -3,17 +3,6 @@
@@ -20,17 +20,24 @@ index e5f5d88..e1834af 100644
  
  Summary: Python modules and utilities for Nagios plugins and configuration
  Name: pynag
-@@ -27,9 +16,6 @@ BuildRequires: python-setuptools
+@@ -27,9 +16,7 @@ BuildRequires: python-setuptools
  BuildRoot: %(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
  Url: http://pynag.org/
  BuildArch: noarch
 -%if 0%{?unittest2}
 -BuildRequires: python-unittest2
 -%endif
++Patch0: add_shinken_compat.patch
  
  %description
  Python modules and utilities for pragmatically handling Nagios configuration
-@@ -51,10 +37,6 @@ are scripts which list services, do network discovery among other tasks.
+@@ -47,14 +34,12 @@ are scripts which list services, do network discovery among other tasks.
+ 
+ %prep
+ %setup -q
++%patch0 -p1
++
+ 
  %build
  %{__python} setup.py build
  

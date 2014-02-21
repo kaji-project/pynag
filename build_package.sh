@@ -41,7 +41,7 @@ dpkg-buildpackage -tc -us -uc
 # copy patches
 #cp debian/patches/*.patch ../../../opensusebuildservice/home\:sfl-monitoring/shinken
 # Copy spec file
-cp ../pynag-${version}.tar.gz pynag.spec ../
+cp ../pynag-${version}.tar.gz pynag.spec ../..
 # copy deb files
 cd ..
 cp pynag*.changes pynag*.dsc pynag*.tar.xz pynag*.tar.gz ../
