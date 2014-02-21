@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 14 Oct 2013 10:39:37 +0000
+Source: pynag
+Binary: pynag
+Architecture: source all
+Version: 0.7.0-1
+Distribution: unstable
+Urgency: low
+Maintainer: Pall Sigurdsson <palli@opensource.is>
+Changed-By: Pall Sigurdsson <palli@opensource.is>
+Description: 
+ pynag      - Python modules and utilities for pragmatically handling Nagios
+Changes: 
+ pynag (0.7.0-1) unstable; urgency=low
+ .
+   * New upstream version
+Checksums-Sha1: 
+ e40b62f5bb0ac39b24fafd27a0ce0e021f1a2c93 809 pynag_0.7.0-1.dsc
+ d8030d0e578f8341a106d57b36382ec02e70d344 3144486 pynag_0.7.0.orig.tar.gz
+ 2b3e39bed21e07b56671346095d0b8861a9237c8 2152 pynag_0.7.0-1.debian.tar.xz
+ 5998ea3274651653ef8651a91d5a760eae1b3786 96576 pynag_0.7.0-1_all.deb
+Checksums-Sha256: 
+ c45d9ec994a344326adc37006c6bfa24367d9a84e0b30cc80923b7a3e18fd399 809 pynag_0.7.0-1.dsc
+ a7b5dcf2872909886d7cc0ba84df7468af52ccfa4e1eff4aa67882090bc67197 3144486 pynag_0.7.0.orig.tar.gz
+ 5e0abc4b84a5a82cf7b6d16d43cb8eb27a3ae754cf565213c14e5b38173eca07 2152 pynag_0.7.0-1.debian.tar.xz
+ ffb409ccc0919441275202a25a512d9e8212da9bbe3a5285a9f4046edb8c38e1 96576 pynag_0.7.0-1_all.deb
+Files: 
+ 386ff16d7d0cdfe29150660875e7fe8a 809 python optional pynag_0.7.0-1.dsc
+ f0c845c2337a7a75c95542f969191207 3144486 python optional pynag_0.7.0.orig.tar.gz
+ a4eaea720902ca9be68daed12d417b0b 2152 python optional pynag_0.7.0-1.debian.tar.xz
+ fc8b58156fb82683c33747f91598e447 96576 python optional pynag_0.7.0-1_all.deb
