@@ -45,3 +45,4 @@ cp ../pynag-${version}.tar.gz pynag.spec ../..
 # copy deb files
 cd ..
 cp pynag*.changes pynag*.dsc pynag*.tar.xz pynag*.tar.gz ../
+cp ../kaji/add_shinken_compat.patch ../

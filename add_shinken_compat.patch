@@ -1,0 +1,21 @@
+diff --git a/pynag/Parsers/__init__.py b/pynag/Parsers/__init__.py
+index de71d3e..96021fe 100644
+--- a/pynag/Parsers/__init__.py
++++ b/pynag/Parsers/__init__.py
+@@ -82,6 +82,7 @@ class config:
+                           '/nagios/etc/nagios/nagios.cfg',
+                           './nagios.cfg',
+                           './nagios/nagios.cfg',
++                          '/etc/shinken/shinken.cfg',
+         )
+         for file_path in possible_files:
+             if os.path.isfile(file_path):
+@@ -1413,7 +1414,7 @@ class mk_livestatus:
+             c = config(cfg_file=nagios_cfg_file)
+             c.parse_maincfg()
+             for k, v in c.maincfg_values:
+-                if k == 'broker_module' and v.find("livestatus.o") > -1:
++                if k == 'broker_module' and v.find("live") > -1:
+                     tmp = v.split()
+                     if len(tmp) > 1:
+                         livestatus_socket_path = tmp[1]
