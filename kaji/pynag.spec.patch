@@ -27,7 +27,7 @@ index e5f5d88..86bd3ac 100644
 -%if 0%{?unittest2}
 -BuildRequires: python-unittest2
 -%endif
-+Patch0: add_shinken_compat.patch
++Patch0: kaji/add_shinken_compat.patch
  
  %description
  Python modules and utilities for pragmatically handling Nagios configuration
