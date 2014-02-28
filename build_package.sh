@@ -9,24 +9,13 @@ git clone https://github.com/pynag/pynag.git build/pynag-${version}
 cd build/pynag-${version}
 git checkout pynag-${version}-${release}
 
-mkdir debian.upstream/patches
-
-cp ../../kaji/add_shinken_compat.patch debian.upstream/patches
-
-cd debian.upstream/patches/
-for file in `ls -1 *`
-do
-    echo $file >> series
-done
-cd ../../
+cp -r ../../debian .
 
 # Prepare source for RPM
 cd ..
 tar czf pynag-${version}.tar.gz pynag-${version}
 cd -
 # Prepare source for DEB
-cp -r debian.upstream debian
-sed -i "s/pynag (${version})/pynag (${version}-${release})/g" debian/changelog
 patch -p1 < ../../kaji/pynag.spec.patch
 python setup.py build
 rm -rf build/
