@@ -1,10 +1,9 @@
-<directory name="pynag" rev="1" srcmd5="56fe4a30d25c3073a0264c7976af5f49" vrev="1">
+<directory name="pynag" rev="4" srcmd5="86fd9041f93cf788cf07cafbfd41834a" vrev="4">
   <entry md5="006b79da428e446261cbb7d97502acc2" mtime="1393220413" name="add_shinken_compat.patch" size="936" />
-  <entry md5="2adab0b46598d9553431e277b37fe724" mtime="1393220414" name="build_package.sh" size="1094" />
-  <entry md5="51c1d4457bededa1cc1840a913b7dc27" mtime="1393220419" name="pynag-0.7.0.tar.gz" size="3096985" />
-  <entry md5="0fa6e065bc5a09601c9635e4ce9463ce" mtime="1393220419" name="pynag.spec" size="3728" />
-  <entry md5="7fa5c0e2b21805d0b64b25f76b255d22" mtime="1393220420" name="pynag_0.7.0-1.debian.tar.xz" size="2152" />
-  <entry md5="99c9ceba8f5a5a313a3d0fb266828849" mtime="1393220420" name="pynag_0.7.0-1.dsc" size="809" />
-  <entry md5="2868ed3b59742bb0c5991d704366e568" mtime="1393220421" name="pynag_0.7.0-1_amd64.changes" size="1446" />
-  <entry md5="7703396937f6b861c70505e6edbee677" mtime="1393220425" name="pynag_0.7.0.orig.tar.gz" size="3151630" />
+  <entry md5="1da69598dc720438bba9ee409774fa91" mtime="1393689802" name="build_package.sh" size="768" />
+  <entry md5="69e5298a57f06e2496cb57c42e0f05e7" mtime="1393690060" name="pynag.spec" size="3738" />
+  <entry md5="7951a7e5ad3c498987c0b977c955cf0e" mtime="1393825412" name="pynag_0.7.0+kaji-1.debian.tar.xz" size="2224" />
+  <entry md5="a9fd57551ac3b7b5089ba7b352304dad" mtime="1393825413" name="pynag_0.7.0+kaji-1.dsc" size="844" />
+  <entry md5="82e50bd612e18642bfcbb19e136d0765" mtime="1393825413" name="pynag_0.7.0+kaji-1_amd64.changes" size="1535" />
+  <entry md5="416cff34e1257d7d618aa02763166090" mtime="1393825417" name="pynag_0.7.0+kaji.orig.tar.gz" size="3074201" />
 </directory>

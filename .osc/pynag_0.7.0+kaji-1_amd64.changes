@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sat, 01 Mar 2014 10:56:22 -0500
+Source: pynag
+Binary: pynag
+Architecture: source all
+Version: 0.7.0+kaji-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Pall Sigurdsson <palli@opensource.is>
+Changed-By: Thibault Cohen <thibault.cohen@savoirfairelinux.com>
+Description: 
+ pynag      - Python modules and utilities for pragmatically handling Nagios
+Changes: 
+ pynag (0.7.0+kaji-1) unstable; urgency=medium
+ .
+   * First Kaji version
+Checksums-Sha1: 
+ e87197fc3d9b4094506628a4fbb52e9c80d2eaeb 844 pynag_0.7.0+kaji-1.dsc
+ d056439c5e3a4bdbdda1f76d4bc3bf81966bb5a3 3074201 pynag_0.7.0+kaji.orig.tar.gz
+ 9924ee0a9ca2f29b321b98cd2619d7fed6e2c3d4 2224 pynag_0.7.0+kaji-1.debian.tar.xz
+ 955b7528746ada7fe26ab611a147b828e6c48e62 96632 pynag_0.7.0+kaji-1_all.deb
+Checksums-Sha256: 
+ 6cd661f951a525e344aa915467de6c923a825754c935ec851d8349ff30a70216 844 pynag_0.7.0+kaji-1.dsc
+ c2ee0b870a13f478a2a29178e6bf48d767c2ca740df2ebaa97415cebe9a6ed8c 3074201 pynag_0.7.0+kaji.orig.tar.gz
+ c83cc503e92883029d028b8ad830509f18df32b2c6c369e9ecd511f2ec3ee3fb 2224 pynag_0.7.0+kaji-1.debian.tar.xz
+ a1455af7ad4c040e048d9b78673a758b29fdcbcb2ab889b1f4af8370bfde579d 96632 pynag_0.7.0+kaji-1_all.deb
+Files: 
+ a9fd57551ac3b7b5089ba7b352304dad 844 python optional pynag_0.7.0+kaji-1.dsc
+ 416cff34e1257d7d618aa02763166090 3074201 python optional pynag_0.7.0+kaji.orig.tar.gz
+ 7951a7e5ad3c498987c0b977c955cf0e 2224 python optional pynag_0.7.0+kaji-1.debian.tar.xz
+ 8035b41f640cea361b9bbd0cd7bbf2a0 96632 python optional pynag_0.7.0+kaji-1_all.deb

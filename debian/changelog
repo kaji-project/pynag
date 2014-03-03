@@ -1,3 +1,9 @@
+pynag (0.7.0+kaji-1) unstable; urgency=medium
+
+  * First Kaji version
+
+ -- Thibault Cohen <thibault.cohen@savoirfairelinux.com>  Sat, 01 Mar 2014 10:56:22 -0500
+
 pynag (0.7.0-1) unstable; urgency=low
 
   * New upstream version
