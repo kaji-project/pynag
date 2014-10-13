@@ -1,0 +1,15 @@
+Source: pynag
+Maintainer: Pall Sigurdsson <palli@opensource.is>
+Section: python
+Priority: optional
+Build-Depends: python (>= 2.6.6-3~), debhelper (>= 7.4.3)
+Standards-Version: 3.9.3
+Homepage: http://pynag.org/
+
+X-Python-Version: >= 2.4
+Package: pynag
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Python modules and utilities for pragmatically handling Nagios
+ configuration file maintenance, status information, log file parsing and
+ plug-in development.

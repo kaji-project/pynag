@@ -1,0 +1,144 @@
+pynag (0.9.1-1kaji0.2) unstable; urgency=medium
+
+  * Kaji release
+
+ -- Thibault Cohen <thibault.cohen@savoirfairelinux.com>  Mon, 13 Oct 2014 02:36:40 -0400
+
+pynag (0.9.1-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Tomas Edwardsson <tommi@tommi.org>  Tue, 05 Aug 2014 00:50:10 +0000
+
+pynag (0.9.0-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Tomas Edwardsson <tommi@tommi.org>  Wed, 23 Jul 2014 11:40:22 +0000
+
+pynag (0.8.9-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Pall Sigurdsson <palli@opensource.is>  Tue, 15 Apr 2014 16:56:00 +0000
+
+pynag (0.8.8-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Pall Sigurdsson <palli@opensource.is>  Tue, 15 Apr 2014 16:38:41 +0000
+
+pynag (0.8.7-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Pall Sigurdsson <palli@opensource.is>  Mon, 14 Apr 2014 20:55:50 +0000
+
+pynag (0.8.6-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Pall Sigurdsson <palli@opensource.is>  Mon, 14 Apr 2014 20:27:13 +0000
+
+pynag (0.8.5-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Pall Sigurdsson <palli@opensource.is>  Tue, 08 Apr 2014 14:17:12 +0000
+
+pynag (0.8.4-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Pall Sigurdsson <palli@opensource.is>  Tue, 08 Apr 2014 10:58:55 +0000
+
+pynag (0.8.3-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Pall Sigurdsson <palli@opensource.is>  Mon, 24 Mar 2014 16:10:12 +0000
+
+pynag (0.8.2-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Tomas Edwardsson <tommi@tommi.org>  Fri, 21 Mar 2014 10:39:37 +0000
+
+pynag (0.8.1-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Pall Sigurdsson <palli@opensource.is>  Wed, 19 Feb 2014 10:39:37 +0000
+
+pynag (0.7.0-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Pall Sigurdsson <palli@opensource.is>  Wed, 14 Oct 2013 10:39:37 +0000
+
+
+pynag (0.6.1-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Pall Sigurdsson <palli@opensource.is>  Wed, 30 Aug 2013 10:39:37 +0000
+
+pynag (0.6.0-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Pall Sigurdsson <palli@opensource.is>  Wed, 28 Aug 2013 10:39:37 +0000
+
+pynag (0.5.0-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Tomas Edwardsson <tommi@tommi.org>  Fri, 28 Jun 2013 12:19:09 +0000
+
+pynag (0.4.9-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Tomas Edwardsson <tommi@tommi.org>  Tue, 30 Apr 2013 15:01:21 +0000
+
+pynag (0.4.8-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Pall Sigurdsson <palli@opensource.is>  Wed, 12 Dec 2012 11:05:37 +0000
+
+pynag (0.4.7-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Pall Sigurdsson <palli@opensource.is>  Fri, 26 Oct 2012 08:49:37 +0000
+
+pynag (0.4.6-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Pall Sigurdsson <palli@opensource.is>  Sun, 16 Sep 2012 08:49:37 +0000
+
+pynag (0.4.3-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Pall Sigurdsson <palli@opensource.is>  Fri, 23 Jul 2012 08:49:37 +0000
+
+pynag (0.4.2-2) unstable; urgency=low
+
+  * Fixed duplicate copyright field in debian/copyright
+  * Added missing debian watch file
+  * Improved package long description
+  * homepage field added to debian/control
+  * Removed X-Python-Version from debian/control
+  * Python build-dependency bumped
+  * Removed debian/links
+
+ -- Pall Sigurdsson <palli@opensource.is>  Fri, 11 Jul 2012 00:49:37 +0000
+
+pynag (0.4.2-1) unstable; urgency=low
+
+  * Initial packaging. Closes: 680954
+
+ -- Pall Sigurdsson <palli@opensource.is>  Fri, 29 Jun 2012 16:54:37 +0000
