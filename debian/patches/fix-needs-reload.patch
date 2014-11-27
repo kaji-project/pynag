@@ -1,0 +1,52 @@
+--- a/pynag/Parsers/__init__.py
++++ b/pynag/Parsers/__init__.py
+@@ -36,6 +36,8 @@
+ import sys
+ import socket  # for mk_livestatus
+ import stat
++import json
++import httplib
+ 
+ import pynag.Plugins
+ import pynag.Utils
+@@ -1703,22 +1705,16 @@
+             self.reset()
+             self.parse_maincfg()
+         new_timestamps = self.get_timestamps()
+-        object_cache_file = self.get_cfg_value('object_cache_file')
+ 
+-        if self._get_pid() is None:
+-            return False
+-        if not object_cache_file:
+-            return True
+-        if not self.isfile(object_cache_file):
+-            return True
+-        object_cache_timestamp = new_timestamps.get(object_cache_file, 0)
+-        # Reload not needed if no object_cache file
+-        if object_cache_file is None:
+-            return False
+-        for k, v in new_timestamps.items():
+-            if not v or int(v) > object_cache_timestamp:
+-                return True
+-        return False
++
++        conn = httplib.HTTPConnection("localhost", 7770)
++        conn.request("GET", "/get_running_id")
++        r1 = conn.getresponse()
++        response_text = r1.read()
++        conn.close()
++        start_time = int(json.loads(response_text).split('.')[0])
++        timestamp = max([v for k, v in new_timestamps.items()])
++        return timestamp > start_time
+ 
+     def needs_reparse(self):
+         """ Checks if the Nagios configuration needs to be reparsed.
+@@ -1835,7 +1831,7 @@
+         files = {}
+         files[self.cfg_file] = None
+         for k, v in self.maincfg_values:
+-            if k in ('resource_file', 'lock_file', 'object_cache_file'):
++            if k in ('resource_file', 'object_cache_file'):
+                 files[v] = None
+         for i in self.get_cfg_files():
+             files[i] = None
