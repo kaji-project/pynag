@@ -1,4 +1,4 @@
 distro:
   - centos_6
-spec: pynag.spec
+spec: debian/pynag.spec
 debian: debian
