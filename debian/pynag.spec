@@ -7,13 +7,13 @@
 # All other distributions assume that we have access to unittest2
 %define unittest2 0
 
-%define release 1
+
 
 
 Summary: Python modules and utilities for Nagios plugins and configuration
 Name: pynag
 Version: 0.9.1
-Release: %{release}%{?dist}
+Release: 1kaji0.2
 Source0: http://pynag.googlecode.com/files/%{name}-%{version}.tar.gz
 License: GPLv2
 Group: System Environment/Libraries
@@ -50,6 +50,10 @@ are scripts which list services, do network discovery among other tasks.
 
 %prep
 %setup -q
+for patch_file in $(cat debian/patches/series | grep -v "^#")
+do
+%{__patch} -p1 < debian/patches/$patch_file
+done
 
 %build
 %{__python} setup.py build
