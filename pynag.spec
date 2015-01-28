@@ -6,13 +6,6 @@
 # RHEL6 and newer has unittest2
 # All other distributions assume that we have access to unittest2
 %define unittest2 0
-%if 0%{?rhel} 
-%if 0%{?rhel} >= 6
-%define unittest2 1
-%endif
-%else
-%define unittest2 1
-%endif
 
 %define release 1
 
@@ -33,6 +26,10 @@ BuildArch: noarch
 BuildRequires: python-unittest2
 %endif
 
+# use to remove the dependency added by rpmbuild on python(abi)
+AutoReqProv: no
+
+
 %description
 Python modules and utilities for pragmatically handling Nagios configuration
 file maintenance, status information, log file parsing and plug-in
@@ -42,6 +39,10 @@ development.
 Group: System Environment/Libraries
 Summary: Example scripts which manipulate Nagios configuration
 Requires: pynag
+
+# use to remove the dependency added by rpmbuild on python(abi)
+AutoReqProv: no
+
 
 %description examples
 Example scripts which manipulate Nagios configuration files. Provided
