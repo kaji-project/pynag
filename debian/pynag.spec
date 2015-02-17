@@ -96,6 +96,9 @@ rm -fr $RPM_BUILD_ROOT
 %doc examples/README
 
 %changelog
+* Tue Feb 17 2015 Thibault Cohen <thibault.cohen@savoirfairelinux.com> 0.9.1-1kaji0.2
+- Kaji version
+
 * Wed Aug 30 2013 Pall Sigurdsson <palli@opensource.is> 0.6.1-1
 - New upstream version
 

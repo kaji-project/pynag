@@ -1,4 +1,8 @@
-distro:
-  - centos_6
-spec: debian/pynag.spec
-debian: debian
+centos_6:
+    spec: debian/pynag.spec
+centos_7:
+    spec: debian/pynag.spec
+debian_8:
+    debian: debian
+ubuntu_14.04:
+    debian: debian
